@@ -7,8 +7,8 @@
 
 body {
   margin: 0;
-h1.zen-dots-regular {
-font-family: "Zen Dots", sans-serif;
+  h1.zen-dots-regular {
+   font-family: "Zen Dots", sans-serif;
   background-color: #1b0031;
   color: #ae86ff;
   background-image: url("starry_sun.jpg");
