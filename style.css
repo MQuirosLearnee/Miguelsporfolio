@@ -124,12 +124,12 @@ body {
 
 .reflection h3 {
   margin-top: 0;
-  color: #aaaaff;
+  color: #ffdc00;
 }
 
 .reflection p {
   font-size: 0.95em;
-  color: #aaaaff
+  color: #ffdc00
 
 ;
 }
@@ -166,7 +166,7 @@ body {
 footer {
   text-align: center;
   font-size: 0.85em;
-  color: #c596ff;
+  color: #ffdc00;
 }
 
 /* =========================
