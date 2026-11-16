@@ -1,0 +1,201 @@
+html {
+  height: 100%;
+  background: /* =========================
+   GLOBAL / RESET....
+========================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Zen Dots", sans-serif;
+  background-color: #1b0031;
+  color: #FFDC00;
+  background-image: url("starry_sun.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+  background-color: #4A0092;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left img {
+  height: 46px;
+}
+
+.navbar-right {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-right a:hover {
+  color: #FFDC00;
+}
+
+/* =========================
+   PAGE LAYOUT
+========================= */
+.home-card {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+/* =========================
+   CARDS
+========================= */
+.resource-card {
+  background-color: rgb(71, 43, 106);
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(71, 43, 106, 0.98);
+}
+
+/* =========================
+   BIO SECTION
+========================= */
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bio-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #6200bd;
+  object-fit: cover;
+}
+
+.bio-text h1 {
+  margin-bottom: 0.2em;
+}
+
+.bio-text h4 {
+  margin-top: 0;
+  font-weight: normal;
+  color: #FFDC00;
+}
+
+/* =========================
+   PROJECT LAYOUT
+========================= */
+.project {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+
+.project iframe {
+  flex: 2;
+  min-width: 320px;
+  height: 450px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.reflection {
+  flex: 1;
+  background-color: rgba(136, 0, 182, 0.04);
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.reflection h3 {
+  margin-top: 0;
+  color: #ffdc00;
+}
+
+.reflection p {
+  font-size: 0.95em;
+  color: #ffdc00
+
+;
+}
+
+/* =========================
+   LINKS / ICONS
+========================= */
+.skill-images {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.picture {
+  transition: transform 0.2s ease;
+}
+
+.picture:hover {
+  transform: scale(1.05);
+}
+
+.link-pic {
+  height: 450px;
+  width: 582px;
+  border-radius: 10px;
+  border: 2px solid yellow;
+  object-fit: cover;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: #ffdc00;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project iframe {
+    width: 100%;
+    min-width: 0;
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .navbar-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+}
